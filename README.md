@@ -13,21 +13,39 @@
 
 ## 安装
 
-安装目录名统一使用 `vibe-spec`，与 SKILL.md 中的 `name` 保持一致。
+仓库同步托管在 GitHub 和 Gitee。安装目录名统一使用 `vibe-spec`，与 SKILL.md 中的 `name` 保持一致。
 
 ### Claude Code
 
 个人级（所有项目可用）：
+
+GitHub：
 
 ```bash
 git clone https://github.com/coderlishang/Project-vibe-spec \
   ~/.claude/skills/vibe-spec
 ```
 
+Gitee：
+
+```bash
+git clone https://gitee.com/codelishang/project-vibe-spec \
+  ~/.claude/skills/vibe-spec
+```
+
 项目级（仅当前仓库可用，可随仓库分发给团队）：
+
+GitHub：
 
 ```bash
 git clone https://github.com/coderlishang/Project-vibe-spec \
+  .claude/skills/vibe-spec
+```
+
+Gitee：
+
+```bash
+git clone https://gitee.com/codelishang/project-vibe-spec \
   .claude/skills/vibe-spec
 ```
 
@@ -35,8 +53,17 @@ git clone https://github.com/coderlishang/Project-vibe-spec \
 
 ### Codex
 
+GitHub：
+
 ```bash
 git clone https://github.com/coderlishang/Project-vibe-spec \
+  ~/.codex/skills/vibe-spec
+```
+
+Gitee：
+
+```bash
+git clone https://gitee.com/codelishang/project-vibe-spec \
   ~/.codex/skills/vibe-spec
 ```
 
